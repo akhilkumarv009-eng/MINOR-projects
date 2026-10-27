@@ -1,0 +1,82 @@
+# macOS
+.DS_Store
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Datasets
+*_dataset.csv
+*_train_data.csv
+data/
+dataset/
+datasets/
+*.csv
+
+# ML model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.h5
+*.keras
+*.onnx
+*.pkl
+*.joblib
+*.bin
+*.model
+*.tflite
+
+# Training outputs
+results/
+runs/
+checkpoints/
+outputs/
+wandb/
+
+# Notebooks and editor files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Datasets and generated data
+*.csv
+data/
+dataset/
+datasets/
+
+# Model weights and checkpoints
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.keras
+*.onnx
+*.pkl
+*.joblib
+*.bin
+results/
+checkpoints/
+outputs/
+runs/
+
+# Local secrets and system files
+.env
+.env.*
+!.env.example
+.DS_Store
+__pycache__/
+.venv/
+venv/
